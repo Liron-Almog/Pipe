@@ -1,5 +1,5 @@
 # Lottery Counter To The Wanted Number (using pipe)
 
-The father creates a child and the child executes N times the next operation :
-he lottories numbers until he gets 0 ,then sends to the father using pipe ,
-how many Lotteries he made until 0 and then the father prints the value.  
+The father creates a child, and the child executes the next operation N times:
+he generates lottery numbers until he gets 0, then sends the count of lotteries to the father using a pipe.
+The father receives the count and prints its value. The father and son communicate using a pipe.
